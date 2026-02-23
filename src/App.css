@@ -255,11 +255,11 @@ body {
 
 .error-message {
   background-color: #f8d7da;
-  color: #721c24;
+  color: #bb2e3c;
   padding: 0.75rem;
-  border-radius: 4px;
+  /* border-radius: 4px; */
   margin-bottom: 1rem;
-  border: 1px solid #f5c6cb;
+  /* border: 1px solid #f5c6cb; */
 }
 
 .auth-switch {
@@ -272,6 +272,7 @@ body {
   color: #007bff;
   text-decoration: none;
   font-weight: 500;
+  cursor: pointer;
 }
 
 .auth-link:hover {
