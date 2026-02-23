@@ -15,8 +15,8 @@ export default function Home() {
       <div className="container">
         <h2 className="page-title">Our Products</h2>
         <div className="product-grid">
-          {products.map((product) => (
-            <ProductCard product={product}/>
+          {products && products.map((product) => (
+            <ProductCard key={product.id} product={product} />
           ))}
         </div>
       </div>
